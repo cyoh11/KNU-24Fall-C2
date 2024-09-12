@@ -19,6 +19,9 @@ int main()
 	else if (operation == 2) {
 		result = num1 - num2;
 	}
+	else if (operation == 3) {
+		result = num1 * num2;
+	}
 	else {
 		printf("잘못 입력하셨습니다.\n");
 	}
